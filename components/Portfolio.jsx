@@ -75,13 +75,13 @@ const Portfolio = () => {
   return (
     <div id="portfolio" className="w-full">
       <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
-      <div className="flex flex-col justify-end items-center w-full">
-        <h2 className="text-2xl md:text-5xl tracking-wider uppercase text-red-500 font-bold">
-          portfolio
-        </h2>
-        <p className="py-4 max-w-2xl">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam earum, consectetur autem deleniti, provident quidem, dolorem sunt aliquam dolorum ducimus repellendus asperiores praesentium voluptatibus tempore?
-        </p>
+        <div className="flex flex-col justify-end items-center w-full">
+          <h2 className="text-2xl md:text-5xl tracking-wider uppercase text-red-500 font-bold">
+            portfolio
+          </h2>
+          <p className="py-4 max-w-2xl">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam earum, consectetur autem deleniti, provident quidem, dolorem sunt aliquam dolorum ducimus repellendus asperiores praesentium voluptatibus tempore?
+          </p>
         </div>
 
         <div className="max-w-5xl mx-auto grid md:grid-cols-3 gap-8">

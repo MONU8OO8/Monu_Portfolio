@@ -97,8 +97,8 @@ const PortfoliosRoute = ({ portfolios }) => {
                                 <Image
                                     src={imageSrc}
                                     alt={title}
-                                    className="rounded-md duration-200 hover:scale-110"/>
-                                    
+                                    className="rounded-md duration-200 hover:scale-110" />
+
                                 <h2 className="text-center text-base capitalize my-4 font-light duration-200 group-hover:underline underline-offset-4">
                                     {title}
                                 </h2>

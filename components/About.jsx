@@ -45,7 +45,7 @@ const About = () => {
         </div>
 
         <div className="flex flex-wrap items-center justify-center gap-10">
-          <Link href="/resume.pdf" download={true}>
+          <Link href="/#portfolio" download={true}>
             <div className="group flex items-center justify-center my-8 hover:border-red-500 border-2 text-white px-6 py-3 font-bold uppercase rounded-full tracking-wider cursor-pointer">
               Hire Me
               <span className="-rotate-90 duration-100 ease-in group-hover:rotate-0">

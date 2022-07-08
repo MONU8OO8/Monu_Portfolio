@@ -18,63 +18,63 @@ import Link from "next/link";
 import Image from "next/image";
 
 const portfolios = [
-    {
-      id: 1,
-      title: "react News app",
-      imageSrc: reactnews,
+  {
+    id: 1,
+    title: "react News app",
+    imageSrc: reactnews,
     //   imageSrc1: reactnews,
-      url: "react-News",
-    },
-    {
-      id: 2,
-      title: "react todolist",
-      imageSrc: todolist,
+    url: "react-News",
+  },
+  {
+    id: 2,
+    title: "react todolist",
+    imageSrc: todolist,
     //   imageSrc1: todolist,
-      url: "todolist",
-    },
-    {
-      id: 3,
-      title: "next js app",
-      imageSrc: nextjs,
-      url: "use-state-hook",
-    },
-    {
-      id: 4,
-      title: "DSA problems",
-      imageSrc: dsa,
-      url: "dsa files",
-    },
-    {
-      id: 5,
-      title: "dancing website",
-      imageSrc: dancing,
-      url: "react-parallax",
-    },
-    {
-      id: 6,
-      title: "Nextjs Series Blog",
-      imageSrc: nextseries,
-      url: "blog site",
-    },
-    {
-      id: 7,
-      title: "TextConverter",
-      imageSrc: textconvert,
-      url: "text-converter",
-    },
-    {
-      id: 8,
-      title: "Wake & Baked",
-      imageSrc: Baked,
-      url: "late night food",
-    },
-    {
-      id: 9,
-      title: "BootTail website",
-      imageSrc: TailBoot,
-      url: "BootTail websites",
-    },
-  ];
+    url: "todolist",
+  },
+  {
+    id: 3,
+    title: "next js app",
+    imageSrc: nextjs,
+    url: "use-state-hook",
+  },
+  {
+    id: 4,
+    title: "DSA problems",
+    imageSrc: dsa,
+    url: "dsa files",
+  },
+  {
+    id: 5,
+    title: "dancing website",
+    imageSrc: dancing,
+    url: "react-parallax",
+  },
+  {
+    id: 6,
+    title: "Nextjs Series Blog",
+    imageSrc: nextseries,
+    url: "blog site",
+  },
+  {
+    id: 7,
+    title: "TextConverter",
+    imageSrc: textconvert,
+    url: "text-converter",
+  },
+  {
+    id: 8,
+    title: "Wake & Baked",
+    imageSrc: Baked,
+    url: "late night food",
+  },
+  {
+    id: 9,
+    title: "BootTail website",
+    imageSrc: TailBoot,
+    url: "BootTail websites",
+  },
+];
 
 
 const getPortfolioFrom = (url) => portfolios.filter((p) => p.url === url)[0];
@@ -98,7 +98,7 @@ export async function getStaticProps({ params }) {
   };
 }
 
-const OnePortfolio = ({ portfolio: { title, imageSrc,imageSrc1 } }) => {
+const OnePortfolio = ({ portfolio: { title, imageSrc, imageSrc1 } }) => {
   return (
     <div className="h-fit w-full text-center bg-custom-blue">
       <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-8 flex flex-col">
@@ -114,14 +114,14 @@ const OnePortfolio = ({ portfolio: { title, imageSrc,imageSrc1 } }) => {
           {title}
         </h1>
         <div className="flex flex-wrap">
-        <div className="relative w-96 h-56 mx-auto overflow-hidden my-8">
-          <Image src={imageSrc} alt="bla" layout="fill" objectFit="cover" />  
-        </div>
-        {/* <div className="relative w-96 h-56 mx-auto overflow-hidden my-8">
+          <div className="relative w-96 h-56 mx-auto overflow-hidden my-8">
+            <Image src={imageSrc} alt="bla" layout="fill" objectFit="cover" />
+          </div>
+          {/* <div className="relative w-96 h-56 mx-auto overflow-hidden my-8">
           <Image src={imageSrc1} alt="bla" layout="fill" objectFit="cover" />
         </div> */}
         </div>
-        
+
 
         <h2 className="text-center text-red-500 md:text-left my-4 text-2xl font-bold">
           Description

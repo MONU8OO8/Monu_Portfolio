@@ -10,7 +10,7 @@ const HomePage = () => {
     <div id="home" className="h-screen w-full text-center">
       <div className="bg-back1 min-h-screen max-h-screen bg-cover bg-center bg-no-repeat max-w-screen-xl mx-auto w-full h-full pt-24 p-4 flex flex-col justify-around items-center">
         <div className="w-44 h-44 mx-auto overflow-hidden rounded-full">
-          <Image className="rounded-full " objectFit="cover" src={heroImage} alt="me" />
+          <Image className="rounded-full " objectFit="cover" src={heroImage} alt="About" />
         </div>
 
         <h5 className="uppercase font-bold mt-4">
@@ -46,7 +46,7 @@ const HomePage = () => {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ab dolores eos sequi iste eaque.
         </p>
 
-        <Link href="/#me">
+        <Link href="/#About">
           <div className="group flex items-center justify-center my-8 bg-red-500 hover:bg-white hover:text-custom-blue text-white px-6 py-3 font-bold uppercase rounded-full tracking-wider cursor-pointer">
             know more
             <span className="-rotate-90 duration-100 ease-in group-hover:rotate-0">

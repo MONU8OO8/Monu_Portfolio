@@ -6,6 +6,7 @@ import Link from 'next/link';
 import spotify from "../public/assets/spotify.gif";
 import { FaFacebook, FaGithub, FaTwitter, FaLinkedin, FaSpotify, FaInstagram } from "react-icons/fa";
 
+
 const Contact = () => {
   return (
     <div id="contact" className="w-full">
@@ -85,7 +86,7 @@ const Contact = () => {
               <form
                 action="https://getform.io/f/f89700c4-2d47-4651-9471-5d495d185693"
                 method="POST"
-              >
+                id="checkIt" type="text" >
                 <div className="block gap-4 w-full py-2">
                   <div className="block m-auto w-full">
                     <div className="flex flex-col">
@@ -95,7 +96,9 @@ const Contact = () => {
                       <input
                         type="text"
                         name="name"
+                        id="name"
                         className="border-2 text-custom-blue rounded-lg p-3 flex focus:outline-none border-red-200"
+                        required
                       />
                     </div>
                     <div className="flex flex-col">
@@ -105,7 +108,11 @@ const Contact = () => {
                       <input
                         type="text"
                         name="phone"
+                        id="phone"
                         className="border-2 text-custom-blue rounded-lg p-3 flex focus:outline-none  border-red-200"
+                        required
+                        minLength="10"
+                        maxLength="15"
                       />
                     </div>
                   </div>
@@ -116,9 +123,10 @@ const Contact = () => {
                       email
                     </label>
                     <input
-                      type="email"
+                      typeof="email"
                       name="email"
                       className="border-2 text-custom-blue rounded-lg p-3 flex focus:outline-none border-red-200"
+                      required
                     />
                   </div>
                   <div className="flex flex-col col-span-2">

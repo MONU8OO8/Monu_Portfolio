@@ -82,14 +82,14 @@ const Experience = () => {
     <div id="experience" className="w-full">
       <div className="max-w-screen-xl mx-auto px-8 py-16 text-center md:text-left">
         <div className="flex flex-col justify-end items-center w-full">
-        <h2 className="text-2xl md:text-5xl tracking-wider uppercase text-red-500 font-bold">
-          experience
-        </h2>
-        <p className="py-4 max-w-2xl">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, assumenda maxime numquam consequatur atque iure nesciunt provident esse eveniet obcaecati dolore hic unde dolorum odio!
-        </p>
+          <h2 className="text-2xl md:text-5xl tracking-wider uppercase text-red-500 font-bold">
+            experience
+          </h2>
+          <p className="py-4 max-w-2xl">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, assumenda maxime numquam consequatur atque iure nesciunt provident esse eveniet obcaecati dolore hic unde dolorum odio!
+          </p>
         </div>
-        
+
 
         <div className="grid lg:grid-cols-4 grid-cols-2 gap-8">
           {experiences.map(({ id, title, src }) => (
