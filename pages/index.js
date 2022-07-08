@@ -12,7 +12,7 @@ export default function Home() {
       <div>
         <Head>
           <title>Monu{"'"}s-Personal-Website</title>
-          <link rel="icon" href="/assets/heroimage.jpg" />
+          <link rel="icon" href="/assets/heroimage.JPG" />
         </Head>
         {/* <Script src=
           "path/to/particles.min.js"
