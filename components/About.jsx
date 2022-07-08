@@ -2,8 +2,6 @@ import Link from "next/link";
 import React from "react";
 import { HiAcademicCap } from 'react-icons/hi';
 import { Gi3DGlasses } from 'react-icons/gi';
-import Image from "next/image";
-import heroImage from "../public/assets/heroImage.jpg";
 import { MdExpandMore } from "react-icons/md";
 
 const About = () => {
