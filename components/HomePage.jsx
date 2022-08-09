@@ -42,8 +42,8 @@ const HomePage = () => {
 
         </h5>
 
-        <p className="text-white md:text-xl text-xs max-w-sm mx-auto">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ab dolores eos sequi iste eaque.
+        <p className="text-white md:text-xl text-xs mx-auto">
+          building applications with front and back end operations.
         </p>
 
         <Link href="/#About">

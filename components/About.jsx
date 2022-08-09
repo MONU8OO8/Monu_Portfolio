@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { HiAcademicCap } from 'react-icons/hi';
 import { Gi3DGlasses } from 'react-icons/gi';
+import { BiMusic } from 'react-icons/bi';
 import { MdExpandMore } from "react-icons/md";
 
 const About = () => {
@@ -20,21 +21,37 @@ const About = () => {
             </div> */}
 
           <div className="mt-10 pb-10">
-            <p className="py-4 max-w-2xl mx-auto">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque alias debitis obcaecati fuga ullam voluptatum illum laborum at laboriosam? Dicta officiis libero alias eligendi voluptate.
+            <p className="py-4 max-w-2xl md:text-base text-xs mx-auto">
+              Full stack web developer with background knowledge of MERN stacks, along with a knack of building applications with tailwind.
             </p>
-            <p className="py-4 max-w-2xl mx-auto">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus qui hic saepe quod consequatur fugit quas optio expedita, repudiandae id illum itaque. Enim, dolore voluptatem!
-            </p>
+            <div className="py-4 max-w-2xl md:text-base text-xs p-2 text-left mx-auto">
+
+              ⚪ Full Stack web development
+              <br />
+              ⚪ Interactive Front End as per the design
+              <br />
+              ⚪ React and Next js
+              <br />
+              ⚪ Data Structures and Algorithms
+
+            </div>
 
             <div className="flex flex-col py-4 max-w-2xl mx-auto ">
               <h3 className="flex text-red-500 text-lg"> <HiAcademicCap className="text-2xl my-1 mr-2" />  Education </h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, aliquam.</p>
+              <p className="text-red-500 md:text-base text-xs text-left">Indian Institute of Information Technology, Dharwad.</p>
+              <p className="text-left md:text-base text-xs">Bachelor of engineering in Electronics and Communication Engineering.</p>
+            </div>
+
+            <div className="flex flex-col py-4 max-w-2xl mx-auto ">
+              <h3 className="flex text-red-500 text-lg"> <BiMusic className="text-2xl my-1 mr-2" />  Interests </h3>
+              <p className="text-red-500 md:text-base text-xs text-left">Music</p>
+              <p className="text-left md:text-base text-xs">Listening music is something i can never compromise with, Spotify pop songs charts is at times the best stress reliever.</p>
             </div>
 
             <div className="flex flex-col py-4 max-w-2xl mx-auto ">
               <h3 className="flex text-red-500 text-lg"> <Gi3DGlasses className="text-2xl my-1 mr-2" />  Interests </h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, aliquam.</p>
+              <p className="text-red-500 md:text-base text-xs text-left">Gamer</p>
+              <p className="text-left md:text-base text-xs">I like playing video games.</p>
             </div>
           </div>
 

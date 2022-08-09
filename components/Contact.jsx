@@ -33,7 +33,7 @@ const Contact = () => {
 
 
             <p className="pt-2 pb-8 mt-4">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Velit architecto repellendus, porro voluptate ab eum! Voluptatum quibusdam cupiditate quisquam beatae.
+              Have a question or want to work together?
             </p>
 
             <div className="grid grid-cols-2 mx-auto w-4/5 gap-10">

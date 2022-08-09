@@ -86,7 +86,7 @@ const Experience = () => {
             experience
           </h2>
           <p className="py-4 max-w-2xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, assumenda maxime numquam consequatur atque iure nesciunt provident esse eveniet obcaecati dolore hic unde dolorum odio!
+            Development, Coding and Gaming
           </p>
         </div>
 
