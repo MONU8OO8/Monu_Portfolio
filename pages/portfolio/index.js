@@ -1,7 +1,8 @@
 import React from "react";
 import dsa from "../../public/assets/portfolio/dsa.jpg";
 import nextjs from "../../public/assets/portfolio/nextjs.png";
-import todolist from "../../public/assets/portfolio/todolist.jpg";
+import weather from "../../public/assets/portfolio/weather.webp";
+// import todolist from "../../public/assets/portfolio/todolist.jpg";
 import reactnews from "../../public/assets/portfolio/reactnews.jpg";
 import dancing from "../../public/assets/portfolio/dancing.webp";
 import nextseries from "../../public/assets/portfolio/nextseries.jpg";
@@ -23,9 +24,9 @@ export const getStaticProps = async () => {
         },
         {
             id: 2,
-            title: "react todolist",
-            imageSrc: todolist,
-            url: "todolist",
+            title: "weather forecast",
+            imageSrc: weather,
+            url: "weather",
         },
         {
             id: 3,

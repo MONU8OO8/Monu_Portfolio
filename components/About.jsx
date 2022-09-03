@@ -4,6 +4,7 @@ import { HiAcademicCap } from 'react-icons/hi';
 import { Gi3DGlasses } from 'react-icons/gi';
 import { BiMusic } from 'react-icons/bi';
 import { MdExpandMore } from "react-icons/md";
+// import resume from "../public/assets/resume.pdf";
 
 const About = () => {
   return (
@@ -26,13 +27,13 @@ const About = () => {
             </p>
             <div className="py-4 max-w-2xl md:text-base text-xs p-2 text-left mx-auto">
 
-              ⚪ Full Stack web development
+              🔴 Full Stack web development
               <br />
-              ⚪ Interactive Front End as per the design
+              🔴 Interactive Front End as per the design
               <br />
-              ⚪ React and Next js
+              🔴 React and Next js
               <br />
-              ⚪ Data Structures and Algorithms
+              🔴 Data Structures and Algorithms
 
             </div>
 
@@ -62,7 +63,7 @@ const About = () => {
         </div>
 
         <div className="flex flex-wrap items-center justify-center gap-10">
-          <Link href="/#portfolio" download={true}>
+          <Link href="/#contact" download={true}>
             <div className="group flex items-center justify-center my-8 hover:border-red-500 border-2 text-white px-6 py-3 font-bold uppercase rounded-full tracking-wider cursor-pointer">
               Hire Me
               <span className="-rotate-90 duration-100 ease-in group-hover:rotate-0">
@@ -71,14 +72,15 @@ const About = () => {
             </div>
           </Link>
 
-          <Link href="/#contact">
+          <a download href="/resume.pdf">
             <div className="group flex items-center justify-center my-8 hover:bg-white hover:text-custom-blue bg-red-500 text-white px-6 py-3 font-bold uppercase rounded-full tracking-wider cursor-pointer">
-              Resume
+
+             Resume
               <span className="-rotate-90 duration-100 ease-in group-hover:rotate-0">
                 <MdExpandMore size={25} />
               </span>
             </div>
-          </Link>
+          </a>
         </div>
       </div>
     </div>

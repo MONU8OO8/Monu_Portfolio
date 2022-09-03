@@ -1,7 +1,8 @@
 import React from "react";
 import dsa from "../../public/assets/portfolio/dsa.jpg";
 import nextjs from "../../public/assets/portfolio/nextjs.png";
-import todolist from "../../public/assets/portfolio/todolist.jpg";
+// import todolist from "../../public/assets/portfolio/todolist.jpg";
+import weather from "../../public/assets/portfolio/weather.webp";
 // import todolist2 from "../../public/assets/portfolio/todolist2.jpg";
 import reactnews from "../../public/assets/portfolio/reactnews.jpg";
 // import news2 from "../../public/assets/portfolio/news2.jpg";
@@ -27,10 +28,10 @@ const portfolios = [
   },
   {
     id: 2,
-    title: "react todolist",
-    imageSrc: todolist,
+    title: "weather forecast",
+    imageSrc: weather,
     //   imageSrc1: todolist,
-    url: "todolist",
+    url: "weather",
   },
   {
     id: 3,
@@ -98,7 +99,7 @@ export async function getStaticProps({ params }) {
   };
 }
 
-const OnePortfolio = ({ portfolio: { title, imageSrc, imageSrc1 } }) => {
+const OnePortfolio = ({ portfolio: { title, imageSrc } }) => {
   return (
     <div className="h-fit w-full text-center bg-custom-blue">
       <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-8 flex flex-col">
