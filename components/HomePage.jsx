@@ -43,7 +43,7 @@ const HomePage = () => {
         </h5>
 
         <p className="text-white md:text-xl text-xs mx-auto">
-          building applications with front and back end operations.
+        Passionate about Coding and Development
         </p>
 
         <Link href="/#About">

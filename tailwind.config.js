@@ -9,7 +9,8 @@ module.exports = {
         'custom-blue':'#14141c',
       },
       fontFamily: {
-        'sans': ['Courier New', 'Courier', 'monospace']
+        'sans': ['Courier New', 'Courier', 'monospace'],
+        'poppins': ['Poppins']
       }
     },
     backgroundImage: {
