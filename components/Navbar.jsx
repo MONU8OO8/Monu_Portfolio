@@ -51,7 +51,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`w-full h-20 z-10 fixed font-serif bg-custom-blue text-white duration-300 ease-in ${pageScroll && "bg-custom-blue text-[#fff]"
+      className={`w-full h-20 z-10 fixed font-poppins bg-custom-blue text-white duration-300 ease-in ${pageScroll && "bg-custom-blue text-[#fff]"
         }`}
     >
       <div className="flex justify-between items-center w-full h-full max-w-screen-xl mx-auto p-4">

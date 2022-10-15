@@ -25,6 +25,7 @@ const portfolios = [
     imageSrc: reactnews,
     //   imageSrc1: reactnews,
     url: "react-News",
+    demo: "https://bbcnews-react.vercel.app/"
   },
   {
     id: 2,
@@ -32,12 +33,15 @@ const portfolios = [
     imageSrc: weather,
     //   imageSrc1: todolist,
     url: "weather",
+    demo: "https://weatherforecast-nu.vercel.app/"
+
   },
   {
     id: 3,
     title: "next js app",
     imageSrc: nextjs,
     url: "use-state-hook",
+    demo: "https://monu-personal-web-site.vercel.app/"
   },
   {
     id: 4,
@@ -99,7 +103,7 @@ export async function getStaticProps({ params }) {
   };
 }
 
-const OnePortfolio = ({ portfolio: { title, imageSrc } }) => {
+const OnePortfolio = ({ portfolio: { title, imageSrc,demo } }) => {
   return (
     <div className="h-fit w-full text-center bg-custom-blue">
       <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-8 flex flex-col">
@@ -129,12 +133,11 @@ const OnePortfolio = ({ portfolio: { title, imageSrc } }) => {
         </h2>
 
         <p className="text-white">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil hic quam illo quos distinctio fuga, nemo officiis ipsam rem, provident corrupti qui reprehenderit aut eius.
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ex corporis rerum ducimus aperiam, quas illum ullam id, vitae impedit hic possimus iusto maiores esse deserunt culpa asperiores accusantium est, temporibus et facilis? Vel, provident pariatur.
+          This is my website some pages from here you can visit my other websites projects and also you can see this website demo with demo button and you can also visit my github repositories. I build these websites using tools like React JS, Next JS, JavaScript, Bootstrap, Tailwind CSS, MongoDB etc.
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-10">
-          <Link href="/">
+          <Link href={demo} target="_blank">
             <div className="group flex items-center justify-center my-8 bg-red-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
               demo
               <span className="duration-200 ease-in">
