@@ -24,6 +24,7 @@ const portfolios = [
     title: "react News app",
     imageSrc: reactnews,
     //   imageSrc1: reactnews,
+    
     url: "react-News",
     demo: "https://bbcnews-react.vercel.app/"
   },
