@@ -49,36 +49,42 @@ const portfolios = [
     title: "DSA problems",
     imageSrc: dsa,
     url: "dsa files",
+    demo:"/"
   },
   {
     id: 5,
     title: "dancing website",
     imageSrc: dancing,
     url: "react-parallax",
+    demo:"/"
   },
   {
     id: 6,
     title: "Nextjs Series Blog",
     imageSrc: nextseries,
     url: "blog site",
+    demo:"/"
   },
   {
     id: 7,
     title: "TextConverter",
     imageSrc: textconvert,
     url: "text-converter",
+    demo:"/"
   },
   {
     id: 8,
     title: "Wake & Baked",
     imageSrc: Baked,
     url: "late night food",
+    demo:"/"
   },
   {
     id: 9,
     title: "BootTail website",
     imageSrc: TailBoot,
     url: "BootTail websites",
+    demo:"/"
   },
 ];
 
