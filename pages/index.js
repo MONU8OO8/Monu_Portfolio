@@ -12,7 +12,8 @@ export default function Home() {
       <div>
         <Head>
           <title>Monu{"'"}s-Personal-Website</title>
-          <link rel="icon" href="/assets/heroimage.JPG" />
+          <link rel="icon" href="/assets/heroImage.jpeg" />
+          {/* <link rel="icon" href="" /> */}
         </Head>
         {/* <Script src=
           "path/to/particles.min.js"

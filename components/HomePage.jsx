@@ -1,5 +1,5 @@
 import React from "react";
-import heroImage from "../public/assets/heroImage.JPG";
+import heroImage from "../public/assets/heroImage.jpeg";
 import { MdExpandMore } from "react-icons/md";
 import Typical from 'react-typical'
 import Image from "next/image";
