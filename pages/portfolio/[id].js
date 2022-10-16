@@ -24,7 +24,7 @@ const portfolios = [
     title: "react News app",
     imageSrc: reactnews,
     //   imageSrc1: reactnews,
-    
+
     url: "react-News",
     demo: "https://bbcnews-react.vercel.app/"
   },
@@ -138,7 +138,7 @@ const OnePortfolio = ({ portfolio: { title, imageSrc,demo } }) => {
         </p>
 
         <div className="flex flex-wrap items-center justify-center gap-10">
-          <Link href={demo} target="_blank">
+          <Link href={`${demo}`} target="_blank">
             <div className="group flex items-center justify-center my-8 bg-red-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
               demo
               <span className="duration-200 ease-in">
