@@ -4,6 +4,7 @@ import { HiAcademicCap } from 'react-icons/hi';
 import { Gi3DGlasses } from 'react-icons/gi';
 import { BiMusic } from 'react-icons/bi';
 import { MdExpandMore } from "react-icons/md";
+import Image from "next/image";
 // import resume from "../public/assets/resume.pdf";
 
 const About = () => {
@@ -28,14 +29,25 @@ const About = () => {
             </p>
             <div className="py-4 max-w-2xl md:text-base text-xs p-2 text-left mx-auto">
 
-              🔴 Full Stack web development
+              🌈 Full Stack web development
               <br />
-              🔴 Interactive Front End as per the design
-              <br />
-              🔴 React and Next js
-              <br />
-              🔴 Data Structures and Algorithms
+              👀 Data Structures and Algorithms
+            </div>
+            <div className="flex flex-col py-2 max-w-2xl mx-auto">
+              <h3 className="flex text-lg"> Leetcode Badges </h3>
+              <div className="flex flex-row">
+                <img src="https://leetcode.com/static/images/badges/2022/lg/2022-annual-100.png"
+                  width="50" height="50" alt="leetcode" />
+                <img src="https://leetcode.com/static/images/badges/dcc-2023-1.png"
+                  width="50" height="50" alt="leetcode" />
+                <img src="https://leetcode.com/static/images/badges/dcc-2022-12.png"
+                  width="50" height="50" alt="leetcode" />
+                <img src="https://leetcode.com/static/images/badges/dcc-2022-11.png"
+                  width="50" height="50" alt="leetcode" />
+                <img src="https://leetcode.com/static/images/badges/dcc-2022-7.png"
+                  width="50" height="50" alt="leetcode" />
 
+              </div>
             </div>
 
             <div className="flex flex-col py-4 max-w-2xl mx-auto ">
