@@ -29,23 +29,39 @@ const About = () => {
             </p>
             <div className="py-4 max-w-2xl md:text-base text-xs p-2 text-left mx-auto">
 
-              🌈 Full Stack web development
+              🌈 MERN Stack Developer
               <br />
               👀 Data Structures and Algorithms
             </div>
             <div className="flex flex-col py-2 max-w-2xl mx-auto">
-              <h3 className="flex text-lg"> Leetcode Badges </h3>
+              <Link href="https://leetcode.com/Lucifer8008/">
+                <h3 className="flex text-lg text-red-500 cursor-pointer"> Leetcode Badges </h3></Link>
+
               <div className="flex flex-row">
-                <img src="https://leetcode.com/static/images/badges/2022/lg/2022-annual-100.png"
-                  width="50" height="50" alt="leetcode" />
-                <img src="https://leetcode.com/static/images/badges/dcc-2023-1.png"
-                  width="50" height="50" alt="leetcode" />
-                <img src="https://leetcode.com/static/images/badges/dcc-2022-12.png"
-                  width="50" height="50" alt="leetcode" />
-                <img src="https://leetcode.com/static/images/badges/dcc-2022-11.png"
-                  width="50" height="50" alt="leetcode" />
-                <img src="https://leetcode.com/static/images/badges/dcc-2022-7.png"
-                  width="50" height="50" alt="leetcode" />
+                <Link href="https://leetcode.com/Lucifer8008/">
+                  <img className="cursor-pointer" src="https://leetcode.com/static/images/badges/2022/lg/2022-annual-100.png"
+                    width="50" height="50" alt="leetcode" />
+                </Link>
+                <Link href="https://leetcode.com/Lucifer8008/">
+                  <img className="cursor-pointer" src="https://leetcode.com/static/images/badges/dcc-2023-1.png"
+                    width="50" height="50" alt="leetcode" />
+                </Link>
+                <Link href="https://leetcode.com/Lucifer8008/">
+                  <img className="cursor-pointer" src="https://leetcode.com/static/images/badges/dcc-2023-2.png"
+                    width="50" height="50" alt="leetcode" />
+                </Link>
+                <Link href="https://leetcode.com/Lucifer8008/">
+                  <img className="cursor-pointer" src="https://leetcode.com/static/images/badges/dcc-2022-12.png"
+                    width="50" height="50" alt="leetcode" />
+                </Link>
+                <Link href="https://leetcode.com/Lucifer8008/">
+                  <img className="cursor-pointer" src="https://leetcode.com/static/images/badges/dcc-2022-11.png"
+                    width="50" height="50" alt="leetcode" />
+                </Link>
+                <Link href="https://leetcode.com/Lucifer8008/">
+                  <img className="cursor-pointer" src="https://leetcode.com/static/images/badges/dcc-2022-7.png"
+                    width="50" height="50" alt="leetcode" />
+                </Link>
 
               </div>
             </div>

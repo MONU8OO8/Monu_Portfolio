@@ -45,6 +45,9 @@ const HomePage = () => {
         <p className="text-white md:text-xl text-xs mx-auto">
         Passionate about Coding and Development
         </p>
+        {/* <h3 className="md:text-xl text:xs text-center font-bold bg-[linear-gradient(10deg,#dc2626,#fee2e2,#A7B334)] bg-clip-text text-transparent">
+        Passionate about Coding and Development
+        </h3> */}
 
         <Link href="/#About">
           <div className="group flex items-center justify-center my-8 bg-red-500 hover:bg-white hover:text-custom-blue text-white px-6 py-3 font-bold uppercase rounded-full tracking-wider cursor-pointer">
