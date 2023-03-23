@@ -14,7 +14,8 @@ module.exports = {
       }
     },
     backgroundImage: {
-      'back1': "url('../public/assets/back1.png')",
+      'back1': "url('../public/assets/back1.jpg')",
+      // 'back1': "url('../public/assets/backgif.gif')",
     },
   },
   plugins: [],

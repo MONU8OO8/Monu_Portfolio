@@ -15,7 +15,7 @@ const Contact = () => {
           contact
         </h2>
 
-        <div className="flex flex-col md:flex-row gap-8 shadow-xl rounded-md shadow-red-300 bg-custom-blue mt-4">
+        <div className="flex flex-col md:flex-row gap-8 shadow-xl rounded-md shadow-red-300 bg-black mt-4">
           <div className="w-full mt-10 md:w-1/2 h-full rounded-xl p-4">
             <div className="flex flex-col w-full justify-center items-center">
               <div className="w-3/4">

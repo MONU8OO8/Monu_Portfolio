@@ -26,7 +26,8 @@ const portfolios = [
     //   imageSrc1: reactnews,
 
     url: "react-News",
-    demo: "https://bbcnews-react.vercel.app/"
+    demo: "https://bbcnews-react.vercel.app/",
+    github: "https://github.com/MONU8OO8/BBCNEWS-React"
   },
   {
     id: 2,
@@ -34,7 +35,8 @@ const portfolios = [
     imageSrc: weather,
     //   imageSrc1: todolist,
     url: "weather",
-    demo: "https://weatherforecast-nu.vercel.app/"
+    demo: "https://weatherforecast-nu.vercel.app/",
+    github: "https://github.com/MONU8OO8/Weather_forecast"
 
   },
   {
@@ -42,49 +44,56 @@ const portfolios = [
     title: "next js app",
     imageSrc: nextjs,
     url: "use-state-hook",
-    demo: "https://monu-personal-web-site.vercel.app/"
+    demo: "https://monu-personal-web-site.vercel.app/",
+    github: "https://github.com/MONU8OO8/Monu-Personal-WebSite"
   },
   {
     id: 4,
     title: "DSA problems",
     imageSrc: dsa,
     url: "dsa files",
-    demo:"/"
+    demo:"/",
+    github: "/"
   },
   {
     id: 5,
     title: "dancing website",
     imageSrc: dancing,
     url: "react-parallax",
-    demo:"/"
+    demo:"/",
+    github: "/"
   },
   {
     id: 6,
     title: "Nextjs Series Blog",
     imageSrc: nextseries,
     url: "blog site",
-    demo:"/"
+    demo:"/",
+    github: "/"
   },
   {
     id: 7,
     title: "TextConverter",
     imageSrc: textconvert,
     url: "text-converter",
-    demo:"/"
+    demo:"/",
+    github: "/"
   },
   {
     id: 8,
     title: "Wake & Baked",
     imageSrc: Baked,
     url: "late night food",
-    demo:"/"
+    demo:"/",
+    github: "/"
   },
   {
     id: 9,
     title: "BootTail website",
     imageSrc: TailBoot,
     url: "BootTail websites",
-    demo:"/"
+    demo:"/",
+    github: "/"
   },
 ];
 
@@ -110,9 +119,9 @@ export async function getStaticProps({ params }) {
   };
 }
 
-const OnePortfolio = ({ portfolio: { title, imageSrc,demo } }) => {
+const OnePortfolio = ({ portfolio: { title, imageSrc,demo,github } }) => {
   return (
-    <div className="h-fit w-full text-center bg-custom-blue">
+    <div className="h-fit w-full text-center bg-black">
       <div className="max-w-screen-xl mx-auto w-full h-full pt-24 p-8 flex flex-col">
         <div className="flex">
           <Link href="/portfolio">
@@ -153,7 +162,7 @@ const OnePortfolio = ({ portfolio: { title, imageSrc,demo } }) => {
             </div>
           </Link>
 
-          <Link href="https://github.com/MONU8OO8">
+          <Link href={`${github}`} target="_blank">
             <div className="group flex items-center justify-center my-8 bg-red-500 text-white px-6 py-3 font-bold uppercase rounded-md tracking-wider cursor-pointer">
               my portfolio
               <span className="duration-200 ease-in">

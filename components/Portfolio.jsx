@@ -79,7 +79,7 @@ const Portfolio = () => {
           <h2 className="text-2xl md:text-5xl tracking-wider uppercase text-red-500 font-bold">
             portfolio
           </h2>
-          <p className="py-8 max-w-2xl">
+          <p className="py-4 max-w-2xl md:text-base text-xs mx-auto">
             These are my some portfolio websites here I used Technologies like Reactjs, Nextjs, MongoDB, Expressjs, Nodejs, Bootstrap, Tailwind
           </p>
         </div>

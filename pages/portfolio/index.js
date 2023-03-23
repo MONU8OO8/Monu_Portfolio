@@ -80,7 +80,7 @@ export const getStaticProps = async () => {
 
 const PortfoliosRoute = ({ portfolios }) => {
     return (
-        <div id="portfolio" className="w-full bg-custom-blue">
+        <div id="portfolio" className="w-full bg-black">
             <div className="max-w-screen-xl mx-auto pt-24 p-4 text-center md:text-left">
                 <Link href="/#portfolio">
                     <div className="flex  text-center md:text-left my-8 text-white hover:text-red-500 font-bold capitalize cursor-pointer">

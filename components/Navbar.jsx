@@ -1,5 +1,7 @@
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import Image from "next/image";
+import logo from "../public/assets/logo.png";
 
 import {
   FaBars,
@@ -51,14 +53,18 @@ const Navbar = () => {
 
   return (
     <div
-      className={`w-full h-20 z-10 fixed font-poppins bg-custom-blue text-white duration-300 ease-in ${pageScroll && "bg-custom-blue text-[#fff]"
+      className={`w-full h-20 z-10 fixed font-poppins bg-black bg-opacity-90 text-white duration-300 ease-in ${pageScroll && "bg-black text-[#fff]"
         }`}
     >
       <div className="flex justify-between items-center w-full h-full max-w-screen-xl mx-auto p-4">
         <Link href="/#home">
-          <h1 className="text-3xl lg:text-4xl font-bold uppercase tracking-wider cursor-pointer">
+          {/* <h1 className="text-3xl lg:text-4xl font-bold uppercase tracking-wider cursor-pointer">
             MONU
-          </h1>
+          </h1> */}
+          <div className="w-28 h-24 items-start cursor-pointer">
+              <Image objectFit="fill" src={logo} alt="About" width={150}
+                height={120} />
+            </div>
         </Link>
 
         <div>
@@ -86,7 +92,7 @@ const Navbar = () => {
       <div
         className={
           navigation
-            ? "md:hidden fixed left-0 top-0 w-full h-full bg-custom-blue/70 backdrop-blur"
+            ? "md:hidden fixed left-0 top-0 w-full h-full bg-black/70 backdrop-blur"
             : ""
         }
       >

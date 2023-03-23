@@ -19,7 +19,7 @@ export default function Home() {
           "path/to/particles.min.js"
         /> */}
       </div>
-      <div className="text-white font-poppins bg-custom-blue">
+      <div className="text-white font-poppins bg-black">
         <HomePage />
         <About />
         <Portfolio />
