@@ -11,6 +11,7 @@ import nextseries from "../../public/assets/portfolio/nextseries.jpg";
 import textconvert from "../../public/assets/portfolio/textconvert.jpg";
 import Baked from "../../public/assets/portfolio/Baked.jpg";
 import TailBoot from "../../public/assets/portfolio/TailBoot.jpg";
+import MernDiary from "../../public/assets/portfolio/MernDiary.png";
 
 import { FaGithub } from "react-icons/fa";
 import { AiOutlineCaretRight } from "react-icons/ai";
@@ -41,6 +42,14 @@ const portfolios = [
   },
   {
     id: 3,
+    title: "MernDiary",
+    imageSrc: MernDiary,
+    url: "Mern-Diaries",
+    demo: "/",
+    github: "https://github.com/MONU8OO8/MERN_Diary"
+  },
+  {
+    id: 4,
     title: "next js app",
     imageSrc: nextjs,
     url: "use-state-hook",
@@ -48,7 +57,7 @@ const portfolios = [
     github: "https://github.com/MONU8OO8/Monu-Personal-WebSite"
   },
   {
-    id: 4,
+    id: 5,
     title: "DSA problems",
     imageSrc: dsa,
     url: "dsa files",
@@ -56,7 +65,7 @@ const portfolios = [
     github: "/"
   },
   {
-    id: 5,
+    id: 6,
     title: "dancing website",
     imageSrc: dancing,
     url: "react-parallax",
@@ -64,7 +73,7 @@ const portfolios = [
     github: "/"
   },
   {
-    id: 6,
+    id: 7,
     title: "Nextjs Series Blog",
     imageSrc: nextseries,
     url: "blog site",
@@ -72,7 +81,7 @@ const portfolios = [
     github: "/"
   },
   {
-    id: 7,
+    id: 8,
     title: "TextConverter",
     imageSrc: textconvert,
     url: "text-converter",
@@ -80,7 +89,7 @@ const portfolios = [
     github: "/"
   },
   {
-    id: 8,
+    id: 9,
     title: "Wake & Baked",
     imageSrc: Baked,
     url: "late night food",
@@ -88,7 +97,7 @@ const portfolios = [
     github: "/"
   },
   {
-    id: 9,
+    id: 10,
     title: "BootTail website",
     imageSrc: TailBoot,
     url: "BootTail websites",

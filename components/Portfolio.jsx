@@ -11,6 +11,7 @@ import nextseries from "../public/assets/portfolio/nextseries.jpg";
 import textconvert from "../public/assets/portfolio/textconvert.jpg";
 import Baked from "../public/assets/portfolio/Baked.jpg";
 import TailBoot from "../public/assets/portfolio/TailBoot.jpg";
+import MernDiary from "../public/assets/portfolio/MernDiary.png";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -30,42 +31,48 @@ const Portfolio = () => {
     },
     {
       id: 3,
+      title: "MernDiary",
+      imageSrc: MernDiary,
+      url: "Mern-Diaries",
+    },
+    {
+      id: 4,
       title: "next js app",
       imageSrc: nextjs,
       url: "use-state-hook",
     },
     {
-      id: 4,
+      id: 5,
       title: "DSA problems",
       imageSrc: dsa,
       url: "dsa files",
     },
     {
-      id: 5,
+      id: 6,
       title: "dancing website",
       imageSrc: dancing,
       url: "react-parallax",
     },
     {
-      id: 6,
+      id: 7,
       title: "Nextjs Series Blog",
       imageSrc: nextseries,
       url: "blog site",
     },
     {
-      id: 7,
+      id: 8,
       title: "TextConverter",
       imageSrc: textconvert,
       url: "text-converter",
     },
     {
-      id: 8,
+      id: 9,
       title: "Wake & Baked",
       imageSrc: Baked,
       url: "late night food",
     },
     {
-      id: 9,
+      id: 10,
       title: "BootTail website",
       imageSrc: TailBoot,
       url: "BootTail websites",
