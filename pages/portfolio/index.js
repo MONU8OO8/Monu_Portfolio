@@ -4,6 +4,7 @@ import nextjs from "../../public/assets/portfolio/nextjs.png";
 import weather from "../../public/assets/portfolio/weather.webp";
 // import todolist from "../../public/assets/portfolio/todolist.jpg";
 import reactnews from "../../public/assets/portfolio/reactnews.jpg";
+import farms from "../../public/assets/portfolio/farms.png";
 import dancing from "../../public/assets/portfolio/dancing.webp";
 import nextseries from "../../public/assets/portfolio/nextseries.jpg";
 import textconvert from "../../public/assets/portfolio/textconvert.jpg";
@@ -19,60 +20,66 @@ export const getStaticProps = async () => {
     const portfolios = [
         {
             id: 1,
+            title: "FarmsConnect",
+            imageSrc: farms,
+            url: "farms-connect",
+        },
+        {
+            id: 2,
             title: "react News app",
             imageSrc: reactnews,
             url: "react-News",
         },
         {
-            id: 2,
+            id: 3,
             title: "weather forecast",
             imageSrc: weather,
             url: "weather",
         },
         {
-            id: 3,
+            id: 4,
             title: "MernDiary",
             imageSrc: MernDiary,
             url: "Mern-Diaries",
         },
         {
-            id: 4,
+            id: 5,
             title: "next js app",
             imageSrc: nextjs,
             url: "use-state-hook",
         },
         {
-            id: 5,
+            id: 6,
             title: "DSA problems",
             imageSrc: dsa,
             url: "dsa files",
         },
         {
-            id: 6,
+            id: 7,
             title: "dancing website",
             imageSrc: dancing,
             url: "react-parallax",
         },
         {
-            id: 7,
+            id: 8,
             title: "Nextjs Series Blog",
             imageSrc: nextseries,
             url: "blog site",
         },
         {
-            id: 8,
+            id: 9,
             title: "TextConverter",
             imageSrc: textconvert,
             url: "text-converter",
         },
         {
-            id: 9,
+            id: 10,
             title: "Wake & Baked",
             imageSrc: Baked,
             url: "late night food",
         },
         {
-            id: 10,
+            id: 11,
             title: "BootTail website",
             imageSrc: TailBoot,
             url: "BootTail websites",

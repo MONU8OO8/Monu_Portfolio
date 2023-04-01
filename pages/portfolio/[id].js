@@ -5,6 +5,7 @@ import nextjs from "../../public/assets/portfolio/nextjs.png";
 import weather from "../../public/assets/portfolio/weather.webp";
 // import todolist2 from "../../public/assets/portfolio/todolist2.jpg";
 import reactnews from "../../public/assets/portfolio/reactnews.jpg";
+import farms from "../../public/assets/portfolio/farms.png";
 // import news2 from "../../public/assets/portfolio/news2.jpg";
 import dancing from "../../public/assets/portfolio/dancing.webp";
 import nextseries from "../../public/assets/portfolio/nextseries.jpg";
@@ -22,6 +23,16 @@ import Image from "next/image";
 const portfolios = [
   {
     id: 1,
+    title: "FarmsConnect",
+    imageSrc: farms,
+    //   imageSrc1: reactnews,
+
+    url: "farms-connect",
+    demo: "/",
+    github: "https://github.com/FarmsConnect"
+  },
+  {
+    id: 2,
     title: "react News app",
     imageSrc: reactnews,
     //   imageSrc1: reactnews,
@@ -31,7 +42,7 @@ const portfolios = [
     github: "https://github.com/MONU8OO8/BBCNEWS-React"
   },
   {
-    id: 2,
+    id: 3,
     title: "weather forecast",
     imageSrc: weather,
     //   imageSrc1: todolist,
@@ -41,7 +52,7 @@ const portfolios = [
 
   },
   {
-    id: 3,
+    id: 4,
     title: "MernDiary",
     imageSrc: MernDiary,
     url: "Mern-Diaries",
@@ -49,7 +60,7 @@ const portfolios = [
     github: "https://github.com/MONU8OO8/MERN_Diary"
   },
   {
-    id: 4,
+    id: 5,
     title: "next js app",
     imageSrc: nextjs,
     url: "use-state-hook",
@@ -57,7 +68,7 @@ const portfolios = [
     github: "https://github.com/MONU8OO8/Monu-Personal-WebSite"
   },
   {
-    id: 5,
+    id: 6,
     title: "DSA problems",
     imageSrc: dsa,
     url: "dsa files",
@@ -65,7 +76,7 @@ const portfolios = [
     github: "/"
   },
   {
-    id: 6,
+    id: 7,
     title: "dancing website",
     imageSrc: dancing,
     url: "react-parallax",
@@ -73,7 +84,7 @@ const portfolios = [
     github: "/"
   },
   {
-    id: 7,
+    id: 8,
     title: "Nextjs Series Blog",
     imageSrc: nextseries,
     url: "blog site",
@@ -81,15 +92,15 @@ const portfolios = [
     github: "/"
   },
   {
-    id: 8,
+    id: 9,
     title: "TextConverter",
     imageSrc: textconvert,
     url: "text-converter",
     demo:"/",
-    github: "/"
+    github: "https://github.com/MONU8OO8/TextConverter-React"
   },
   {
-    id: 9,
+    id: 10,
     title: "Wake & Baked",
     imageSrc: Baked,
     url: "late night food",
@@ -97,7 +108,7 @@ const portfolios = [
     github: "/"
   },
   {
-    id: 10,
+    id: 11,
     title: "BootTail website",
     imageSrc: TailBoot,
     url: "BootTail websites",
