@@ -25,6 +25,7 @@ export default function Home() {
         <Portfolio />
         <Experience />
         <Contact />
+        
       </div>
     </>
 
