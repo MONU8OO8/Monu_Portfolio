@@ -134,7 +134,7 @@ const About = () => {
                     <Image objectFit="fill" src={dev} alt="About" width={200}
                       height={200} />
                   </div>
-                  <h1>Technical Interest</h1>
+                  <h1>Work Experience</h1>
                 </button>
 
                 <Modal open={open4} onClose={onCloseModal4} center styles={bg}>

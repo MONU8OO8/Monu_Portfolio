@@ -7,6 +7,7 @@ import nextjs from "../public/assets/portfolio/nextjs.png";
 import weather from "../public/assets/portfolio/weather.webp";
 import reactnews from "../public/assets/portfolio/reactnews.jpg";
 import farms from "../public/assets/portfolio/farms.png";
+import jordan from "../public/assets/portfolio/jordan.png";
 import dancing from "../public/assets/portfolio/dancing.webp";
 import nextseries from "../public/assets/portfolio/nextseries.jpg";
 import textconvert from "../public/assets/portfolio/textconvert.jpg";
@@ -26,60 +27,66 @@ const Portfolio = () => {
     },
     {
       id: 2,
+      title: "Jordan",
+      imageSrc: jordan,
+      url: "jordan",
+    },
+    {
+      id: 3,
       title: "react News app",
       imageSrc: reactnews,
       url: "react-News",
     },
     {
-      id: 3,
+      id: 4,
       title: "weather forecast",
       imageSrc: weather,
       url: "weather",
     },
     {
-      id: 4,
+      id: 5,
       title: "MernDiary",
       imageSrc: MernDiary,
       url: "Mern-Diaries",
     },
     {
-      id: 5,
+      id: 6,
       title: "next js app",
       imageSrc: nextjs,
       url: "use-state-hook",
     },
     {
-      id: 6,
+      id: 7,
       title: "DSA problems",
       imageSrc: dsa,
       url: "dsa files",
     },
     {
-      id: 7,
+      id: 8,
       title: "dancing website",
       imageSrc: dancing,
       url: "react-parallax",
     },
     {
-      id: 8,
+      id: 9,
       title: "Nextjs Series Blog",
       imageSrc: nextseries,
       url: "blog site",
     },
     {
-      id: 9,
+      id: 10,
       title: "TextConverter",
       imageSrc: textconvert,
       url: "text-converter",
     },
     {
-      id: 10,
+      id: 11,
       title: "Wake & Baked",
       imageSrc: Baked,
       url: "late night food",
     },
     {
-      id: 11,
+      id: 12,
       title: "BootTail website",
       imageSrc: TailBoot,
       url: "BootTail websites",
